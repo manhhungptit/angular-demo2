@@ -1,0 +1,24 @@
+{
+  "name": "angular-localization",
+  "version": "1.0.0",
+  "description": "Sample project for angular routing and localization",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- server.js"
+  },
+  "author": "Hung Manh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "http-server": "^0.12.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "nodemon": "^2.0.2"
+  }
+}
